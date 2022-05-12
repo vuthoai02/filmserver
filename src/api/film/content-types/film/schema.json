@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "films",
+  "info": {
+    "singularName": "film",
+    "pluralName": "films",
+    "displayName": "film",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "img_url": {
+      "type": "text"
+    },
+    "episodes": {
+      "type": "json"
+    },
+    "type": {
+      "type": "string"
+    },
+    "trailer_url": {
+      "type": "string"
+    },
+    "national": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string"
+    },
+    "actor": {
+      "type": "string"
+    }
+  }
+}
